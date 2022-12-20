@@ -5,6 +5,8 @@ ENV LANG C.UTF-8
 
 ENV CONFIG_PATH /data/options.json
 
+# Copy data for add-on
 COPY run.sh /
+RUN chmod a+x /run.sh
 
-ENTRYPOINT ["/run.sh"]
+CMD ["/run.sh"]
