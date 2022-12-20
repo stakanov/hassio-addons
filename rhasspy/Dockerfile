@@ -1,5 +1,5 @@
-FROM rhasspy/rhasspy:2.5.11
-LABEL maintainer="Michael Hansen <mike@rhasspy.org>"
+FROM --platform linux/arm/v7 rhasspy/rhasspy:2.5.11
+LABEL maintainer="Daniele Stakanov Senatore <senatoredaniele@gmail.com>"
 
 ENV LANG C.UTF-8
 
