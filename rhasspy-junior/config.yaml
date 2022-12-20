@@ -1,7 +1,7 @@
 name: "Rhasspy Junior"
 description: "Simplified voice control for Home Assistant"
 version: "0.2.2"
-url: "https://github.com/rhasspy/rhasspy-junior"
+url: "https://github.com/stakanov/rhasspy-junior"
 slug: "rhasspy_junior"
 init: false
 arch:
